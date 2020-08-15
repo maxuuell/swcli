@@ -1,0 +1,19 @@
+[package]
+name = "swcli"
+version = "0.0.1"
+authors = ["maxuuell <maxuuell@gmail.com>"]
+edition = "2018"
+license = "MIT"
+homepage = "https://github.com/maxuuell/swcli"
+description = "A CLI to fetch star wars data from the SWAPI"
+repository = "https://github.com/maxuuell/swcli"
+readme = "README.md"
+
+[dependencies]
+structopt = "^0"
+indicatif = "^0"
+reqwest = { version = "^0", features = ["blocking", "json"] }
+http = "^0"
+url = "^2"
+serde_json = "^1"
+exitcode = "^1"
