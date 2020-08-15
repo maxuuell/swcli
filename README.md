@@ -1,6 +1,6 @@
 # Star Wars CLI (swcli)
 
-This CLI allows you to query the Star Wars API from your command line. So far, it only allows you to look up resources by id.
+This CLI allows you to query the [Star Wars API](https://swapi.dev/documentation) from your command line. So far, it only allows you to look up resources by id.
 
 ## Resources
 
@@ -18,3 +18,5 @@ swcli films 2
 ```
 
 The json response will print in your terminal.
+
+See the [issues](https://github.com/maxuuell/swcli/issues) for things you can start helping with!

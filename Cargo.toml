@@ -8,6 +8,8 @@ homepage = "https://github.com/maxuuell/swcli"
 description = "A CLI to fetch star wars data from the SWAPI"
 repository = "https://github.com/maxuuell/swcli"
 readme = "README.md"
+keywords = ["cli", "star wars", "side project"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 structopt = "^0"
